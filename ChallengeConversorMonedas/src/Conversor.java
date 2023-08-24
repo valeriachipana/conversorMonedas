@@ -31,7 +31,6 @@ public class Conversor extends JFrame {
 	private JButton botonConvertir;
 	private JLabel resultado;
 	
-	// equivalencias a soles
 	public double dolar=3.7;
 	public double euro=4.0;
 	public double libra=4.67;
