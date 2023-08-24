@@ -108,6 +108,21 @@ public class Conversor extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		JLabel lblNewLabel_1_1 = new JLabel("Valeria Chipana N.");
+		lblNewLabel_1_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1_1.setForeground(Color.LIGHT_GRAY);
+		lblNewLabel_1_1.setFont(new Font("Arial", Font.PLAIN, 10));
+		lblNewLabel_1_1.setBounds(298, 252, 217, 24);
+		contentPane.add(lblNewLabel_1_1);
+		
+		JLabel lblNewLabel_1_1_1 = new JLabel("Última actualización: 08/2023");
+		lblNewLabel_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_1_1_1.setForeground(Color.LIGHT_GRAY);
+		lblNewLabel_1_1_1.setFont(new Font("Arial", Font.PLAIN, 10));
+		lblNewLabel_1_1_1.setBounds(298, 266, 217, 24);
+		contentPane.add(lblNewLabel_1_1_1);
+
+		
 		JLabel lblConversorDe = new JLabel("CONVERSOR DE");
 		lblConversorDe.setHorizontalAlignment(SwingConstants.CENTER);
 		lblConversorDe.setForeground(Color.WHITE);
